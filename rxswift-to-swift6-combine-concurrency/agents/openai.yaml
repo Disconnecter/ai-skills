@@ -1,0 +1,15 @@
+version: "1.2.1"
+
+meta:
+  parameters_schema: "omitted"
+  parameters_note: "Use prompt text for scope hints (target module, migration strategy)."
+
+interface:
+  display_name: "RxSwift Migration"
+  short_description: "RxSwift to Swift 6 migration playbook"
+  default_prompt: "Use $rx-migrate to migrate this codebase from RxSwift to Swift 6 concurrency and Combine incrementally."
+
+policy:
+  # true: the catalog may invoke this skill implicitly when the task matches.
+  # false: require explicit user/agent invocation (use for high-risk or narrowly scoped skills).
+  allow_implicit_invocation: true

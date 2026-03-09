@@ -1,0 +1,10 @@
+name: "swift-struct-size"
+version: "1.0.0"
+
+interface:
+  display_name: "Swift Struct Size"
+  short_description: "Analyze and optimize Swift struct memory layout"
+  default_prompt: "Analyze this Swift struct and propose a safer, smaller field order based on MemoryLayout."
+
+policy:
+  allow_implicit_invocation: true
