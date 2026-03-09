@@ -20,6 +20,31 @@ Invocation name: `$swift-struct-size`
 
 ## Install (Different AI CLI Tools)
 
+### From ai-skills monorepo
+
+Clone monorepo:
+
+```bash
+git clone https://github.com/Disconnecter/ai-skills.git
+cd ai-skills
+```
+
+Use this skill at:
+
+- `swift-struct-size/SKILL.md`
+- `swift-struct-size/references/field-order-and-struct-size.md`
+
+For Claude Code, add to project `CLAUDE.md`:
+
+```markdown
+## Skills
+
+@/absolute/path/to/ai-skills/swift-struct-size/SKILL.md
+@/absolute/path/to/ai-skills/swift-struct-size/references/field-order-and-struct-size.md
+```
+
+### Standalone repo (Skills-compatible CLI)
+
 ### OpenAI/Codex Skills-compatible CLI
 
 After publishing the repo on GitHub, install with:

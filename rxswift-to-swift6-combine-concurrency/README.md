@@ -26,6 +26,33 @@ Invocation name: `$rx-migrate`
 
 ## Install
 
+### From ai-skills monorepo
+
+Clone monorepo:
+
+```bash
+git clone https://github.com/Disconnecter/ai-skills.git
+cd ai-skills
+```
+
+Use this skill at:
+
+- `rxswift-to-swift6-combine-concurrency/SKILL.md`
+- `rxswift-to-swift6-combine-concurrency/references/rxswift-combine-concurrency-map.md`
+- `rxswift-to-swift6-combine-concurrency/references/phased-migration-playbook.md`
+
+For Claude Code, add to project `CLAUDE.md`:
+
+```markdown
+## Skills
+
+@/absolute/path/to/ai-skills/rxswift-to-swift6-combine-concurrency/SKILL.md
+@/absolute/path/to/ai-skills/rxswift-to-swift6-combine-concurrency/references/rxswift-combine-concurrency-map.md
+@/absolute/path/to/ai-skills/rxswift-to-swift6-combine-concurrency/references/phased-migration-playbook.md
+```
+
+### Standalone repo (Skills CLI)
+
 ### OpenAI/Codex Skills CLI
 
 ```bash
