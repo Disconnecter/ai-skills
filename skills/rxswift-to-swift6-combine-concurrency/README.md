@@ -54,7 +54,7 @@ For Claude Code, add to project `CLAUDE.md`:
 ### Install via `npx skills`
 
 ```bash
-npx skills add https://github.com/Disconnecter/ai-skills --skill rxswift-to-swift6-combine-concurrency
+npx skills add https://github.com/Disconnecter/ai-skills --skill rx-migrate
 ```
 
 ### Manual install (any AI CLI)
