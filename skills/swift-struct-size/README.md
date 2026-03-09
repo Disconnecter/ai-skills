@@ -43,6 +43,12 @@ For Claude Code, add to project `CLAUDE.md`:
 @/absolute/path/to/ai-skills/skills/swift-struct-size/references/field-order-and-struct-size.md
 ```
 
+### Install via `npx skills`
+
+```bash
+npx skills add https://github.com/Disconnecter/ai-skills --skill swift-struct-size
+```
+
 ### Manual install (any AI CLI)
 
 If your CLI does not have native skill installation, load these files directly:

@@ -51,6 +51,12 @@ For Claude Code, add to project `CLAUDE.md`:
 @/absolute/path/to/ai-skills/skills/rxswift-to-swift6-combine-concurrency/references/phased-migration-playbook.md
 ```
 
+### Install via `npx skills`
+
+```bash
+npx skills add https://github.com/Disconnecter/ai-skills --skill rxswift-to-swift6-combine-concurrency
+```
+
 ### Manual install (any AI CLI)
 
 If your CLI does not have native skill installation, load these files directly:

@@ -30,6 +30,23 @@ git clone https://github.com/Disconnecter/ai-skills.git
 cd ai-skills
 ```
 
+## Install Via `npx skills`
+
+Install from GitHub and select one skill:
+
+```bash
+npx skills add https://github.com/Disconnecter/ai-skills --skill rxswift-to-swift6-combine-concurrency
+npx skills add https://github.com/Disconnecter/ai-skills --skill swift-struct-size
+```
+
+Install both at once:
+
+```bash
+npx skills add https://github.com/Disconnecter/ai-skills \
+  --skill rxswift-to-swift6-combine-concurrency \
+  --skill swift-struct-size
+```
+
 ## Install Each Skill
 
 ### 1) rxswift-to-swift6-combine-concurrency
